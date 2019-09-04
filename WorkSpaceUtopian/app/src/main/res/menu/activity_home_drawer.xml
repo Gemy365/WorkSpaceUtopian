@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_recover_cash"
+            android:icon="@drawable/ic_restore_black_24dp"
+            android:title="Recover your Cash" />
+
+        <item
+            android:id="@+id/nav_recover_info_customers"
+            android:icon="@drawable/ic_person_black_24dp"
+            android:title="Recover All Information" />
+        <item
+            android:id="@+id/nav_recover_manager_note"
+            android:icon="@drawable/ic_note_black_24dp"
+            android:title="Recover Note Of Other Cash" />
+
+        <item
+            android:id="@+id/nav_delete_all_info"
+            android:orderInCategory="100"
+            android:title="Delete All Information"
+            android:icon="@drawable/ic_delete_black_24dp" />
+    </group>
+
+</menu>

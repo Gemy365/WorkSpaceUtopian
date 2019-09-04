@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical"
+    tools:context=".SignUpUser">
+
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/reg_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:hint="Name"
+        android:inputType="text"
+        android:padding="10dp"
+        android:textColor="#000"
+        android:textColorHint="#000"
+        android:textSize="18sp"
+        app:met_baseColor="#000"
+        app:met_floatingLabel="highlight"
+        app:met_primaryColor="#000"
+        app:met_singleLineEllipsis="true"
+        app:met_textColorHint="#000" />
+
+    <View
+        android:id="@+id/view_line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/reg_name"
+        android:background="#979696" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/reg_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/view_line"
+        android:gravity="center"
+        android:hint="Phone No."
+        android:inputType="number"
+        android:padding="10dp"
+        android:textColor="#000"
+        android:textColorHint="#000"
+        android:textSize="18sp"
+        app:met_baseColor="#000"
+        app:met_floatingLabel="highlight"
+        app:met_maxCharacters="11"
+        app:met_primaryColor="#000"
+        app:met_singleLineEllipsis="true"
+        app:met_textColorHint="#000" />
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="95dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/shapes"
+        android:gravity="center_horizontal"
+        android:minWidth="300dp"
+        android:minHeight="100dp"
+        android:orientation="horizontal"
+        android:visibility="gone"
+        android:weightSum="9">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="3"
+            android:minWidth="80dp"
+            android:text="Place: "
+            android:textColor="#000"
+            android:textColorHint="#000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/edit_place"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:hint="Place"
+            android:textColor="#fff"
+            android:textColorHint="#fff"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view_line2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/reg_phone"
+        android:background="#979696" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/reg_college"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/view_line2"
+        android:gravity="center"
+        android:hint="College"
+        android:inputType="text"
+        android:minHeight="80dp"
+        android:padding="10dp"
+        android:text=""
+        android:textAlignment="center"
+        android:textSize="18sp"
+        app:met_baseColor="#000"
+        app:met_floatingLabel="highlight"
+        app:met_primaryColor="#000"
+        app:met_singleLineEllipsis="true"
+        app:met_textColorHint="#000" />
+
+    <View
+        android:id="@+id/view_line3"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/reg_college"
+        android:background="#979696" />
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="95dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/shapes"
+        android:minWidth="300dp"
+        android:minHeight="100dp"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/reg_start_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shapes"
+            android:padding="10dp"
+            android:text="Start Time will be added Automatically"
+            android:textColor="#fff"
+            android:textColorHint="#fff"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/reg_start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="32dp"
+        android:layout_marginBottom="10dp"
+        android:enabled="true"
+        android:gravity="center"
+        android:minHeight="60dp"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textColorHint="#000"
+        android:background="@drawable/btn_shapes"
+        android:text="Enter" />
+
+</RelativeLayout>

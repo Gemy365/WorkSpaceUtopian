@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical"
+    android:padding="8dp"
+    tools:context=".Home"
+    tools:showIn="@layout/app_bar_home">
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/retrieve_data"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/text_total_of_drinks"
+        android:layout_marginTop="50dp"
+        android:layout_alignParentStart="true"
+        android:divider="#000"
+        android:dividerHeight="1dp"
+        android:minHeight="500dp"
+        android:textColor="#000" />
+
+    <TextView
+        android:id="@+id/text_total_of_drinks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/text_total_of_day"
+        android:text="Total Of Drinks: "
+        android:textColor="#000"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/total_of_drinks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_above="@+id/text_total_of_day"
+        android:layout_toEndOf="@+id/text_total_of_drinks"
+        android:text="0"
+        android:textColor="#000"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/text_total_of_day"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Total Of Place: "
+        android:textColor="#000"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/total_of_cash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/text_total_of_day"
+        android:layout_below="@+id/total_of_drinks"
+        android:layout_marginStart="10dp"
+        android:text="0"
+        android:textColor="#000"
+        android:textSize="16sp" />
+
+</RelativeLayout>
+
+    <!--<LinearLayout--><!--android:layout_width="match_parent"--><!--android:layout_height="wrap_content">-->
+
+    <!--<TextView--><!--android:id="@+id/text_total_of_domte"--><!--android:layout_width="wrap_content"--><!--android:layout_height="wrap_content"--><!--android:text="Total of domte: "--><!--android:textColor="#000"--><!--android:textSize="18sp"--><!--android:textStyle="bold" />-->
+
+    <!--<TextView--><!--android:id="@+id/total_of_domte"--><!--android:layout_width="wrap_content"--><!--android:layout_height="wrap_content"--><!--android:text="0"--><!--android:paddingLeft="4dp"--><!--android:paddingBottom="4dp"--><!--android:textColor="#000"--><!--android:textSize="18sp"--><!--android:textStyle="bold" />-->
+
+    <!--</LinearLayout>-->
+
+    <!--<LinearLayout--><!--android:layout_width="match_parent"--><!--android:layout_height="wrap_content">-->
+
+    <!--<TextView--><!--android:id="@+id/text_total_of_noodles"--><!--android:layout_width="wrap_content"--><!--android:layout_height="wrap_content"--><!--android:text="Total of noodles: "--><!--android:textColor="#000"--><!--android:textSize="18sp"--><!--android:textStyle="bold" />-->
+
+    <!--<TextView--><!--android:id="@+id/total_of_noodles"--><!--android:layout_width="wrap_content"--><!--android:layout_height="wrap_content"--><!--android:text="0"--><!--android:paddingLeft="4dp"--><!--android:paddingBottom="4dp"--><!--android:textColor="#000"--><!--android:textSize="18sp"--><!--android:textStyle="bold" />-->
+
+    <!--</LinearLayout>-->
+
+    <!--<LinearLayout--><!--android:layout_width="match_parent"--><!--android:layout_height="wrap_content">-->
+
+    <!--<TextView--><!--android:id="@+id/text_total_of_shared_space"--><!--android:layout_width="wrap_content"--><!--android:layout_height="wrap_content"--><!--android:text="Total of shared Space: "--><!--android:textColor="#000"--><!--android:textSize="18sp"--><!--android:textStyle="bold" />-->
+
+    <!--<TextView--><!--android:id="@+id/total_of_shared_space"--><!--android:layout_width="wrap_content"--><!--android:layout_height="wrap_content"--><!--android:text="0"--><!--android:paddingLeft="4dp"--><!--android:paddingBottom="4dp"--><!--android:textColor="#000"--><!--android:textSize="18sp"--><!--android:textStyle="bold" />-->
+
+    <!--</LinearLayout>-->
+
+    <!--<LinearLayout--><!--android:layout_width="match_parent"--><!--android:layout_height="wrap_content">-->
+
+    <!--<TextView--><!--android:id="@+id/text_total_of_rooms"--><!--android:layout_width="wrap_content"--><!--android:layout_height="wrap_content"--><!--android:text="Total of rooms: "--><!--android:textColor="#000"--><!--android:textSize="18sp"--><!--android:textStyle="bold" />-->
+
+    <!--<TextView--><!--android:id="@+id/total_of_rooms"--><!--android:layout_width="wrap_content"--><!--android:layout_height="wrap_content"--><!--android:text="0"--><!--android:paddingLeft="4dp"--><!--android:paddingBottom="4dp"--><!--android:textColor="#000"--><!--android:textSize="18sp"--><!--android:textStyle="bold" />-->
+
+    <!--</LinearLayout>-->

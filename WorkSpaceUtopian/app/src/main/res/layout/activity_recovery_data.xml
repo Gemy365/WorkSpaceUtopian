@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical"
+    android:padding="8dp"
+    tools:context=".RecoveryData">
+
+    <RelativeLayout
+        android:id="@+id/r1_recover_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ListView
+            android:id="@+id/list_user_recovery_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:divider="#000"
+            android:cacheColorHint="#fff"
+            android:dividerHeight="1px"
+            android:layout_above="@+id/store_into_file"
+            android:minHeight="500dp" />
+
+        <Button
+            android:id="@+id/store_into_file"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="10dp"
+            android:enabled="true"
+            android:gravity="center"
+            android:minHeight="60dp"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textColorHint="#000"
+            android:background="@drawable/btn_shapes"
+            android:text="Save Data Into Text File" />
+
+    </RelativeLayout>
+
+</LinearLayout>

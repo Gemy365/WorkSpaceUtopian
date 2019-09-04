@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/bg_main"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="18dp">
+
+        <TextView
+            android:id="@+id/my_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:gravity="center"
+            android:text="Created By: Mohamed Gamal"
+            android:textColor="#fff"
+            android:textSize="16dp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/my_name"
+            android:gravity="center"
+            android:text="01114767290"
+            android:textColor="#fff"
+            android:textSize="16dp"
+            android:textStyle="bold|italic" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_active_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:id="@+id/rooms"
+                android:layout_width="0dp"
+                android:layout_height="200dp"
+                android:layout_marginStart="15dp"
+                android:layout_weight="1"
+                android:layout_marginEnd="5dp"
+                android:background="@drawable/bottom_right_radius"
+                android:textSize="18dp"
+                android:gravity="center"
+                android:minHeight="200dp"
+                android:text="Rooms"
+                android:textColor="#fff" />
+
+
+            <TextView
+                android:id="@+id/shared_space"
+                android:layout_width="0dp"
+                android:layout_height="200dp"
+                android:layout_marginEnd="15dp"
+                android:layout_weight="1"
+                android:background="@drawable/bottom_left_radius"
+                android:gravity="center"
+                android:textSize="18dp"
+                android:minHeight="200dp"
+                android:text="Sharing Area"
+                android:textColor="#fff" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:id="@+id/other_method_payment"
+                android:layout_width="0dp"
+                android:layout_height="200dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/top_right_radius"
+                android:gravity="center"
+                android:textSize="18dp"
+                android:minHeight="200dp"
+                android:text="Other Payment "
+                android:textColor="#fff" />
+
+            <TextView
+                android:id="@+id/show_total_now"
+                android:layout_width="0dp"
+                android:layout_height="200dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/top_left_radius"
+                android:gravity="center"
+                android:minHeight="200dp"
+                android:textSize="18dp"
+                android:text="Utopian Total "
+                android:textColor="#fff" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_deActive_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:visibility="gone"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="200dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginTop="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/top_right_radius"
+                android:gravity="center"
+                android:textSize="18dp"
+                android:minHeight="200dp"
+                android:text="Trial is over"
+                android:textColor="#fff" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="200dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/top_left_radius"
+                android:gravity="center"
+                android:minHeight="200dp"
+                android:textSize="18dp"
+                android:text="Call
+                01114767290
+                for activation"
+                android:textColor="#fff" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerInParent="true"
+    android:orientation="vertical"
+    tools:context=".OtherPaymentActivity">
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/other_cashes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:inputType="numberSigned"
+        android:minHeight="80dp"
+        android:hint="0"
+        android:textAlignment="center"
+        android:layout_centerInParent="true"
+        android:textColor="#000"
+        android:textSize="18sp"
+        app:met_baseColor="#000"
+        app:met_maxCharacters="2"
+        app:met_primaryColor="#000"
+        app:met_singleLineEllipsis="true"
+        app:met_textColorHint="#8F8888" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/note_other_cashes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="Write Note"
+        android:inputType="text"
+        android:padding="10dp"
+        android:textSize="18sp"
+        app:met_baseColor="#000"
+        app:met_floatingLabel="highlight"
+        app:met_primaryColor="#000"
+        android:layout_below="@+id/other_cashes"
+        app:met_singleLineEllipsis="true"
+        app:met_textColorHint="#000" />
+
+    <Button
+        android:id="@+id/add_other_cashes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/btn_shapes"
+        android:layout_below="@+id/note_other_cashes"
+        android:enabled="true"
+        android:gravity="center"
+        android:minHeight="60dp"
+        android:text="Add To Total Cash" />
+
+</RelativeLayout>

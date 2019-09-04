@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:background="#fff"
+    tools:context=".SelectedRoom">
+
+    <LinearLayout
+        android:id="@+id/btn_l1_selected_room"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/create_new_selected_room"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:enabled="true"
+            android:gravity="center"
+            android:minHeight="60dp"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textColorHint="#000"
+            android:background="@drawable/btn_shapes"
+            android:text="Create Customer"/>
+        
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/btn_l2_selected_room"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/show_infos_selected_room"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:enabled="true"
+            android:gravity="center"
+            android:minHeight="60dp"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textColorHint="#000"
+            android:background="@drawable/btn_shapes"
+            android:text="Utopian Total Now" />
+        
+    </LinearLayout>
+
+</LinearLayout>

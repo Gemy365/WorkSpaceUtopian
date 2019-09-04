@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:background="#fff"
+    tools:context=".AllRooms">
+
+    <LinearLayout
+        android:id="@+id/btn_l1_rooms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/room1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:enabled="true"
+            android:gravity="center"
+            android:minHeight="60dp"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textColorHint="#000"
+            android:background="@drawable/btn_shapes"
+            android:text="Room 1" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/btn_l2_rooms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/room2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:enabled="true"
+            android:gravity="center"
+            android:minHeight="60dp"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textColorHint="#000"
+            android:background="@drawable/btn_shapes"
+            android:text="Room 2"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/btn_l3_rooms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/room3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:enabled="true"
+            android:gravity="center"
+            android:minHeight="60dp"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textColorHint="#000"
+            android:background="@drawable/btn_shapes"
+            android:text="Room 3" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/btn_l4_rooms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/room4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:enabled="true"
+            android:gravity="center"
+            android:minHeight="60dp"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textColorHint="#000"
+            android:background="@drawable/btn_shapes"
+            android:text="Room 4" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/btn_l5_rooms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/room5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:enabled="true"
+            android:gravity="center"
+            android:minHeight="60dp"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:visibility="gone"
+            android:textColorHint="#000"
+            android:background="@drawable/btn_shapes"
+            android:text="Room 5"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/btn_l6_rooms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/big_room"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:enabled="true"
+            android:gravity="center"
+            android:minHeight="60dp"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textColorHint="#000"
+            android:visibility="gone"
+            android:background="@drawable/btn_shapes"
+            android:text="Big Room"/>
+
+    </LinearLayout>
+
+</LinearLayout>
